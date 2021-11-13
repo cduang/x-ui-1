@@ -10,4 +10,5 @@ mv x-ui/ /usr/local/
 systemctl daemon-reload
 systemctl enable x-ui
 systemctl restart x-ui
-rm -rf x-ui-linux-amd64.tar.gz install.sh
+rm -rf x-ui-linux-amd64.tar.gz
+rm -rf install.sh
