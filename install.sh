@@ -12,3 +12,4 @@ systemctl enable x-ui
 systemctl restart x-ui
 rm -rf x-ui-linux-amd64.tar.gz
 rm -rf install.sh
+cd /root && x-ui
